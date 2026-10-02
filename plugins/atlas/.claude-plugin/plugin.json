@@ -1,0 +1,8 @@
+{
+  "name": "claude-skills-atlas",
+  "version": "1.0.0",
+  "description": "Portable reusable skills, prompts, workflows, agents, and templates from Claude Skills Atlas.",
+  "author": {"name": "Claude Skills Atlas", "url": "https://github.com/cellrishi-code/claude-skills-atlas"},
+  "repository": "https://github.com/cellrishi-code/claude-skills-atlas",
+  "license": "MIT"
+}
