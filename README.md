@@ -84,6 +84,30 @@ Open the file, copy the instructions, adapt them to your project, and use them i
 
 ---
 
+
+---
+
+## 🧭 How the Atlas works
+
+The Atlas is a community library: people discover reusable resources, adapt them to real tasks, contribute improvements, and feed those improvements back into the library.
+
+**Visual architecture:** [docs/diagrams.md](docs/diagrams.md)
+
+```mermaid
+graph LR
+    User[👤 User] --> Discover[🔎 Discover]
+    Discover --> Resource[🧩 Skill / 📝 Prompt / 🔄 Workflow / 🤖 Agent]
+    Resource --> Use[⚡ Use & Adapt]
+    Use --> Feedback[💬 Feedback]
+    Feedback --> PR[🔀 Pull Request]
+    PR --> Review[👀 Review]
+    Review --> Merge[🚀 Merge]
+    Merge --> Library[(🌍 Atlas Library)]
+    Library --> Discover
+```
+
+This makes the project more than a static prompt collection: **resources improve through real community use and contribution.**
+
 ## 🧩 What makes a good Skill?
 
 A useful skill should give Claude **clear, reusable behavior**, not just a vague instruction.
