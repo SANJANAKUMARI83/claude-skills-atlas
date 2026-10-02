@@ -1,0 +1,121 @@
+# Contributing
+
+Welcome to Claude Skills Atlas.
+
+The goal is simple: collect useful, reusable Claude instructions from people across the world and make them easy to discover.
+
+## Contribution types
+
+### Skills
+
+Put reusable instruction packages under:
+
+```text
+skills/<category>/<name>/SKILL.md
+```
+
+A skill should normally contain:
+
+- front matter with a name, category, and tags
+- Purpose
+- When to use
+- Instructions
+- Inputs
+- Outputs
+- Example
+- Limitations
+
+### Prompts
+
+Put copy-paste prompt templates under:
+
+```text
+prompts/<category>/<name>.md
+```
+
+Use placeholders such as `{{topic}}`, `{{language}}`, `{{level}}`, or `{{constraints}}` rather than private information.
+
+### Workflows
+
+Put repeatable multi-step procedures under:
+
+```text
+workflows/<category>/<name>.md
+```
+
+Explain the stages, inputs, outputs, and failure cases.
+
+### Agents
+
+Put specialized agent definitions under:
+
+```text
+agents/<category>/<name>.md
+```
+
+Describe the role, scope, expected inputs, behavior, tools/context, and boundaries.
+
+### Templates
+
+Put reusable checklists, schemas, report structures, or document templates under:
+
+```text
+templates/<category>/<name>.md
+```
+
+## Naming
+
+Use lowercase kebab-case for directories and files.
+
+Good:
+
+```text
+skills/coding/code-review/SKILL.md
+prompts/mathematics/proof-explainer.md
+workflows/research/literature-review.md
+```
+
+Avoid personal names, dates, random numbers, and vague names such as `prompt1.md`.
+
+## Quality checklist
+
+Before opening a PR:
+
+- The contribution is useful to people other than the author.
+- The intended task and expected output are clear.
+- Variables are used for information that changes between users.
+- Examples are realistic and safe.
+- No passwords, API keys, tokens, session cookies, private documents, or personal data are included.
+- External claims and adapted material are attributed where appropriate.
+- Obvious duplicates were checked first.
+- The contribution does not intentionally contain prompt injection designed to compromise unrelated users, tools, or systems.
+- The contribution follows the folder structure and naming rules.
+
+## Pull requests
+
+Keep PRs focused. One coherent contribution is easier to review than a large mixed change.
+
+Maintainers may:
+
+- ask for revisions
+- move a contribution into another category
+- combine duplicates
+- reject unsafe, misleading, low-quality, or improperly licensed material
+
+## Attribution and licensing
+
+Only submit content you are allowed to redistribute.
+
+When adapting an existing work, include the original source and relevant license/attribution information.
+
+## Testing
+
+Where practical, test prompts or skills with Claude and describe what was tested.
+
+Do not claim a result is "verified" or "works" unless you actually evaluated it.
+
+## Security
+
+Never publish secrets or private data.
+
+For repository security issues, see [SECURITY.md](SECURITY.md).
