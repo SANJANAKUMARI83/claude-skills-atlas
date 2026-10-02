@@ -1,41 +1,39 @@
 ---
 name: source-verification
-category: research
-tags: [research, sources, fact-checking, citations]
+description: Verify important factual claims before they are repeated in research, technical writing, or documentation. Use when sources may be outdated, secondary, conflicting, or difficult to interpret.
 ---
 
-# Source Verification Skill
+# Source Verification
 
-## Purpose
+Verify the support behind a claim rather than merely collecting links.
 
-Help evaluate whether a claim is actually supported by the supplied source material.
+## Process
 
-## When to use
+1. Write the exact claim being checked.
+2. Identify the source type and publication date.
+3. Locate the original or highest-authority source available.
+4. Check whether the source actually supports the claim.
+5. Check scope, population, version, and date.
+6. Look for credible contradictory evidence when consequential.
+7. Record limitations without pretending to have certainty.
 
-Use when checking literature notes, reports, technical documents, or draft claims against their cited sources.
+## Red flags
 
-## Instructions
+- Search-result snippets used as evidence
+- Secondary summaries that overstate the original source
+- Outdated documentation for changing software
+- Claims detached from their original context
+- Unclear authorship or provenance
+- Statistics without a defined population or time period
 
-1. Identify the exact claim being checked.
-2. Locate the relevant evidence in the supplied source.
-3. Classify the relationship as directly supported, partially supported, contradicted, or not established.
-4. Explain the reasoning briefly.
-5. Do not strengthen a source's claim beyond what it actually says.
-6. Flag missing context, ambiguous wording, and unsupported numerical details.
+## Output
 
-## Inputs
+For each claim:
 
 - Claim
-- Source text or citation
-- Optional surrounding context
-
-## Outputs
-
-- Evidence location
-- Support classification
-- Concise explanation
-- Suggested wording when the original claim is too strong
-
-## Limitations
-
-Source verification depends on the completeness and accuracy of the supplied material.
+- Best source
+- Source type and date
+- Supporting evidence
+- Scope and caveats
+- Contradictory evidence
+- Verification status
