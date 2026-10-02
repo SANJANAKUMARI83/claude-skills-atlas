@@ -2,18 +2,18 @@
 
 The Atlas is a community-maintained library of reusable Claude building blocks. GitHub renders Mermaid diagrams directly in Markdown, so these diagrams stay editable and version-controlled.
 
-## 🧠 How the Atlas works
+## How the Atlas works
 
 ```mermaid
 flowchart LR
     U[User / Contributor] --> D[Discover a task]
     D --> R{Choose resource type}
 
-    R --> S[🧩 Skill]
-    R --> P[📝 Prompt]
-    R --> W[🔄 Workflow]
-    R --> A[🤖 Agent]
-    R --> T[📐 Template]
+    R --> S[Skill]
+    R --> P[Prompt]
+    R --> W[Workflow]
+    R --> A[Agent]
+    R --> T[Template]
 
     S --> C[Use / Adapt]
     P --> C
@@ -30,11 +30,11 @@ flowchart LR
     LIB --> D
 ```
 
-## 🤝 How a contribution becomes part of the Atlas
+## How a contribution becomes part of the Atlas
 
 ```mermaid
 flowchart TD
-    I[💡 Idea or repeated task]
+    I[Idea or repeated task]
     I --> Q[Write a reusable resource]
     Q --> V[Validate clarity, safety, licensing]
     V --> B{Meets contribution standards?}
@@ -49,14 +49,14 @@ flowchart TD
     FIXPR --> CI
     REVIEW -->|Approved| MERGE[Merge]
     MERGE --> LIB[(Claude Skills Atlas)]
-    LIB --> U[🌍 Community reuse]
+    LIB --> U[Community reuse]
 ```
 
-## 🧱 Resource architecture
+## Resource architecture
 
 ```mermaid
 flowchart TB
-    ATLAS[🧠 Claude Skills Atlas]
+    ATLAS[Claude Skills Atlas]
 
     ATLAS --> SK[skills/]
     ATLAS --> PRM[prompts/]
@@ -65,13 +65,13 @@ flowchart TB
     ATLAS --> TMP[templates/]
     ATLAS --> DOC[docs/]
 
-    SK --> CODE[💻 Coding]
-    SK --> RES[🔬 Research]
-    SK --> MATH[📐 Mathematics]
-    SK --> DATA[📊 Data]
-    SK --> EDU[🎓 Education]
-    SK --> BIO[🧬 Biology]
-    SK --> WRITE[✍️ Writing]
+    SK --> CODE[Coding]
+    SK --> RES[Research]
+    SK --> MATH[Mathematics]
+    SK --> DATA[Data]
+    SK --> EDU[Education]
+    SK --> BIO[Biology]
+    SK --> WRITE[Writing]
 
     PRM --> REUSE[Copy → Adapt → Use]
     WF --> REPEAT[Repeatable process]
@@ -80,7 +80,7 @@ flowchart TB
     DOC --> GUIDE[Guides + source curation]
 ```
 
-## 🔁 The contribution loop
+## The contribution loop
 
 ```mermaid
 flowchart LR
