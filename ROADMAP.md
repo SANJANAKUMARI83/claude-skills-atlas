@@ -1,4 +1,4 @@
-# 🗺️ Claude Skills Atlas Roadmap
+# Claude Skills Atlas Roadmap
 
 The Atlas is intended to grow into a large, searchable community library of reusable Claude resources.
 
