@@ -1,21 +1,21 @@
-# 🧠 Claude Skills Atlas
+# Claude Skills Atlas
 
 <p align="center">
   <strong>A community-driven open-source library of reusable Claude skills, prompts, workflows, agents, and templates.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/cellrishi-code/claude-skills-atlas/stargazers">⭐ Star</a> ·
-  <a href="https://github.com/cellrishi-code/claude-skills-atlas/issues">💡 Issues</a> ·
-  <a href="https://github.com/cellrishi-code/claude-skills-atlas/pulls">🔀 Pull Requests</a> ·
-  <a href="CONTRIBUTING.md">🤝 Contribute</a>
+  <a href="https://github.com/cellrishi-code/claude-skills-atlas/stargazers">Star</a> ·
+  <a href="https://github.com/cellrishi-code/claude-skills-atlas/issues">Issues</a> ·
+  <a href="https://github.com/cellrishi-code/claude-skills-atlas/pulls">Pull Requests</a> ·
+  <a href="CONTRIBUTING.md">Contribute</a>
 </p>
 
 <p align="center"><em>Find it. Copy it. Adapt it. Share it.</em></p>
 
 ---
 
-## 🌍 What is Claude Skills Atlas?
+## What is Claude Skills Atlas?
 
 Claude Skills Atlas is a growing collection of **practical, copy-paste-ready building blocks for Claude**.
 
@@ -23,38 +23,38 @@ Instead of keeping useful prompts and instructions scattered across chats, bookm
 
 You can use the repository to:
 
-- 🧩 Discover reusable **Claude Skills**
-- 📝 Copy **prompt templates**
-- 🔄 Follow repeatable **workflows**
-- 🤖 Build specialized **agents**
-- 📐 Start from reusable **templates**
-- 🌎 Contribute improvements for others to use
+- Discover reusable **Claude Skills**
+- Copy **prompt templates**
+- Follow repeatable **workflows**
+- Build specialized **agents**
+- Start from reusable **templates**
+- Contribute improvements for others to use
 
 > **The goal:** build a high-quality public knowledge base for getting better results from Claude across technical, scientific, creative, and professional work.
 
 ---
 
-## ✨ What's inside?
+## What's inside?
 
-| 📦 Type | 🎯 Purpose | 📄 Example |
+| Type | Purpose | Example |
 |---|---|---|
-| 🧩 **Skills** | Reusable instruction packages | Code review, research analysis |
-| 📝 **Prompts** | Ready-to-copy prompts | Debugging, proof solving |
-| 🔄 **Workflows** | Multi-step procedures | Plan → implement → verify |
-| 🤖 **Agents** | Specialized agent instructions | Research assistant |
-| 📐 **Templates** | Reusable structures | Skill and prompt templates |
+| **Skills** | Reusable instruction packages | Code review, research analysis |
+| **Prompts** | Ready-to-copy prompts | Debugging, proof solving |
+| **Workflows** | Multi-step procedures | Plan → implement → verify |
+| **Agents** | Specialized agent instructions | Research assistant |
+| **Templates** | Reusable structures | Skill and prompt templates |
 
 ---
 
-## 🗺️ Explore by domain
+## Explore by domain
 
-**💻 Computer Science** · **🧑‍💻 Programming** · **🤖 AI / ML** · **📐 Mathematics** · **📊 Statistics** · **⚛️ Physics** · **🧪 Chemistry** · **🧬 Biology** · **🩺 Medicine** · **⚙️ Engineering** · **🤖 Robotics** · **📈 Data Science** · **🔬 Research** · **🔐 Cybersecurity** · **☁️ DevOps / Cloud** · **✍️ Writing** · **🎓 Education** · **💼 Business** · **💰 Finance** · **🎨 Design** · **⚡ Productivity**
+**Computer Science** · **Programming** · **AI / ML** · **Mathematics** · **Statistics** · **Physics** · **Chemistry** · **Biology** · **Medicine** · **Engineering** · **Robotics** · **Data Science** · **Research** · **Cybersecurity** · **DevOps / Cloud** · **Writing** · **Education** · **Business** · **Finance** · **Design** · **Productivity**
 
 **Don't see your field? Create the category.**
 
 ---
 
-## 🚀 Quick start
+## Quick start
 
 ### 1. Browse
 
@@ -84,10 +84,7 @@ Open the file, copy the instructions, adapt them to your project, and use them i
 
 ---
 
-
----
-
-## 🧭 How the Atlas works
+## How the Atlas works
 
 The Atlas is a community library: people discover reusable resources, adapt them to real tasks, contribute improvements, and feed those improvements back into the library.
 
@@ -95,20 +92,20 @@ The Atlas is a community library: people discover reusable resources, adapt them
 
 ```mermaid
 graph LR
-    User[👤 User] --> Discover[🔎 Discover]
-    Discover --> Resource[🧩 Skill / 📝 Prompt / 🔄 Workflow / 🤖 Agent]
-    Resource --> Use[⚡ Use & Adapt]
-    Use --> Feedback[💬 Feedback]
-    Feedback --> PR[🔀 Pull Request]
-    PR --> Review[👀 Review]
-    Review --> Merge[🚀 Merge]
-    Merge --> Library[(🌍 Atlas Library)]
+    User[User] --> Discover[Discover]
+    Discover --> Resource[Skill / Prompt / Workflow / Agent]
+    Resource --> Use[Use & Adapt]
+    Use --> Feedback[Feedback]
+    Feedback --> PR[Pull Request]
+    PR --> Review[Review]
+    Review --> Merge[Merge]
+    Merge --> Library[(Atlas Library)]
     Library --> Discover
 ```
 
 This makes the project more than a static prompt collection: **resources improve through real community use and contribution.**
 
-## 🧩 What makes a good Skill?
+## What makes a good Skill?
 
 A useful skill should give Claude **clear, reusable behavior**, not just a vague instruction.
 
@@ -134,7 +131,7 @@ See the [Skill Template](templates/skill-template.md).
 
 ---
 
-## 📝 Copy-paste prompt library
+## Copy-paste prompt library
 
 Prompts are intentionally kept easy to reuse.
 
@@ -156,32 +153,32 @@ Want to add your own? See the [Prompt Template](templates/prompt-template.md).
 
 ---
 
-## 🔬 Built for serious work
+## Built for serious work
 
 The Atlas is not limited to coding.
 
 You can contribute resources for:
 
-- 🔬 Scientific research
-- 📚 Literature reviews
-- 🧮 Mathematical reasoning
-- 🧬 Biology and life sciences
-- ⚛️ Physics and chemistry
-- 🧑‍💻 Software engineering
-- 🤖 AI / machine learning
-- 📊 Data analysis
-- 🔐 Cybersecurity
-- 📝 Technical writing
-- 🎓 Teaching and learning
-- 🏗️ Engineering
-- 🎨 Design
-- 💼 Business and productivity
+- Scientific research
+- Literature reviews
+- Mathematical reasoning
+- Biology and life sciences
+- Physics and chemistry
+- Software engineering
+- AI / machine learning
+- Data analysis
+- Cybersecurity
+- Technical writing
+- Teaching and learning
+- Engineering
+- Design
+- Business and productivity
 
 If a task is **repeatable**, it can potentially become a reusable Claude resource.
 
 ---
 
-## 🤝 Contribute to the Atlas
+## Contribute to the Atlas
 
 Everyone is welcome — beginners, students, researchers, engineers, designers, and experienced open-source contributors.
 
@@ -200,36 +197,36 @@ Open a Pull Request
   ↓
 Community review
   ↓
-Merge 🚀
+Merge
 ~~~
 
 ### Before opening a PR
 
-- ✅ Make the resource genuinely useful
-- ✅ Keep instructions clear and reusable
-- ✅ Use lowercase kebab-case names
-- ✅ Avoid private information and secrets
-- ✅ Test the resource when practical
-- ✅ Credit external inspiration or sources
-- ✅ Only submit material you have permission to redistribute
-- ✅ Explain what your contribution does
+- Make the resource genuinely useful
+- Keep instructions clear and reusable
+- Use lowercase kebab-case names
+- Avoid private information and secrets
+- Test the resource when practical
+- Credit external inspiration or sources
+- Only submit material you have permission to redistribute
+- Explain what your contribution does
 
 Read the full [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
-## 🛡️ Quality & safety
+## Quality & safety
 
 We want the Atlas to be useful **and trustworthy**.
 
 | Principle | Meaning |
 |---|---|
-| 🎯 **Useful** | Solves a real, repeatable problem |
-| 🧠 **Clear** | Easy for another person to understand |
-| ♻️ **Reusable** | Avoids private context and hard-coded identity |
-| 🔎 **Honest** | States limitations and uncertainty |
-| ©️ **Attributed** | Respects licenses and original creators |
-| 🛡️ **Safe** | No credentials, malware, or malicious payloads |
+| **Useful** | Solves a real, repeatable problem |
+| **Clear** | Easy for another person to understand |
+| **Reusable** | Avoids private context and hard-coded identity |
+| **Honest** | States limitations and uncertainty |
+| **Attributed** | Respects licenses and original creators |
+| **Safe** | No credentials, malware, or malicious payloads |
 
 When adapting ideas from public discussions or repositories, prefer creating an **original implementation** and linking the source rather than copying large third-party collections.
 
@@ -237,7 +234,7 @@ See [docs/community-sources.md](docs/community-sources.md) for the project's cur
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 | Document | Purpose |
 |---|---|
@@ -251,34 +248,34 @@ See [docs/community-sources.md](docs/community-sources.md) for the project's cur
 
 ---
 
-## 🌟 Help the project grow
+## Help the project grow
 
 If you find this useful:
 
-**⭐ Star the repository** · **🍴 Fork it** · **🧩 Add a resource** · **🔀 Open a Pull Request** · **📣 Share it**
+**Star the repository** · **Fork it** · **Add a resource** · **Open a Pull Request** · **Share it**
 
 Every useful contribution makes the Atlas better for the next person.
 
 ---
 
-## 📊 Repository structure
+## Repository structure
 
 ~~~text
 claude-skills-atlas/
 │
-├── 🧩 skills/          # Reusable Claude skills
-├── 📝 prompts/         # Copy-paste prompt templates
-├── 🔄 workflows/       # Multi-step workflows
-├── 🤖 agents/          # Specialized agents
-├── 📐 templates/       # Reusable templates
-├── 📚 docs/            # Documentation & curation
+├── skills/             # Reusable Claude skills
+├── prompts/            # Copy-paste prompt templates
+├── workflows/          # Multi-step workflows
+├── agents/             # Specialized agents
+├── templates/          # Reusable templates
+├── docs/               # Documentation & curation
 │
-└── ⚙️ .github/         # Issues, PR templates, CODEOWNERS
+└── .github/            # Issues, PR templates, CODEOWNERS
 ~~~
 
 ---
 
-## 📜 License
+## License
 
 Released under the **MIT License**.
 
@@ -287,7 +284,7 @@ See [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-  <strong>🧠 Claude Skills Atlas</strong><br>
+  <strong>Claude Skills Atlas</strong><br>
   <sub>A community library for better Claude workflows.</sub>
 </p>
 
