@@ -5,6 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RESOURCE_DIRS = ["skills", "prompts", "workflows", "agents"]
 errors = []
 seen_names = {}
+seen_titles = {}
 
 for directory in RESOURCE_DIRS:
     base = ROOT / directory
