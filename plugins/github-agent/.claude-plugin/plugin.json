@@ -1,0 +1,12 @@
+{
+  "name": "github-agent",
+  "version": "1.0.0",
+  "description": "A portable GitHub workflow plugin for Claude Code. Lets an agent inspect repositories, issues, pull requests, branches, commits, and CI, then safely create commits and pull requests through the GitHub CLI.",
+  "author": {
+    "name": "Claude Skills Atlas",
+    "url": "https://github.com/cellrishi-code/claude-skills-atlas"
+  },
+  "repository": "https://github.com/cellrishi-code/claude-skills-atlas",
+  "license": "MIT",
+  "keywords": ["github", "git", "pull-request", "issues", "code-review", "ci", "agent"]
+}
