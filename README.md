@@ -178,6 +178,27 @@ If a task is **repeatable**, it can potentially become a reusable Claude resourc
 
 ---
 
+## Plugins
+
+The Atlas also ships installable Claude Code plugins.
+
+### GitHub Agent
+
+The **GitHub Agent** plugin gives Claude Code a portable GitHub workflow through the `gh` CLI.
+
+- [GitHub Agent plugin](plugins/github-agent/README.md)
+- [Plugin manifest](plugins/github-agent/.claude-plugin/plugin.json)
+- [GitHub skill](plugins/github-agent/skills/github/SKILL.md)
+- [GitHub operator agent](plugins/github-agent/agents/github-operator.md)
+
+Install the plugin directly while developing:
+
+```bash
+claude --plugin-dir ./plugins/github-agent
+```
+
+The plugin never stores GitHub credentials. Users authenticate their own GitHub CLI with `gh auth login`.
+
 ## Contribute to the Atlas 🤝
 
 Everyone is welcome — beginners, students, researchers, engineers, designers, and experienced open-source contributors.
