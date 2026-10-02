@@ -178,9 +178,43 @@ If a task is **repeatable**, it can potentially become a reusable Claude resourc
 
 ---
 
+## Install the Atlas in your agent
+
+The Atlas can be consumed as a **public skill and prompt library**, not only as a repository to browse.
+
+### Claude Code
+
+```text
+/plugin marketplace add cellrishi-code/claude-skills-atlas
+/plugin install claude-skills-atlas@claude-skills-atlas
+```
+
+### Any compatible agent
+
+Clone the repository and copy the resources you need:
+
+```bash
+git clone https://github.com/cellrishi-code/claude-skills-atlas.git
+```
+
+- `skills/` → reusable `SKILL.md` instructions
+- `prompts/` → ready-to-use prompts
+- `workflows/` → repeatable procedures
+- `agents/` → specialized agent instructions
+- `templates/` → reusable structures
+
+See **[INSTALL.md](INSTALL.md)** for the complete setup guide.
+
 ## Plugins
 
 The Atlas also ships installable Claude Code plugins.
+
+### Atlas Library Plugin
+
+The **Atlas Library** plugin gives an agent a reusable entry point to the public skills, prompts, workflows, agents, and templates in this repository.
+
+- [Atlas plugin](plugins/atlas/README.md)
+- [Atlas skill](plugins/atlas/skills/atlas/SKILL.md)
 
 ### GitHub Agent
 
@@ -190,14 +224,6 @@ The **GitHub Agent** plugin gives Claude Code a portable GitHub workflow through
 - [Plugin manifest](plugins/github-agent/.claude-plugin/plugin.json)
 - [GitHub skill](plugins/github-agent/skills/github/SKILL.md)
 - [GitHub operator agent](plugins/github-agent/agents/github-operator.md)
-
-Install the plugin directly while developing:
-
-```bash
-claude --plugin-dir ./plugins/github-agent
-```
-
-The plugin never stores GitHub credentials. Users authenticate their own GitHub CLI with `gh auth login`.
 
 ## Contribute to the Atlas 🤝
 
