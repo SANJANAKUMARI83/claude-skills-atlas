@@ -7,6 +7,7 @@ skills/       Reusable SKILL.md instruction packages
 prompts/      Copy-paste prompt templates
 workflows/    Multi-step procedures
 agents/       Specialized agent definitions
+plugins/      Installable Claude Code plugins
 templates/    Reusable documents, checklists, schemas, and structures
 docs/         Project standards and architecture
 .github/      Contribution and issue templates
@@ -43,3 +44,7 @@ skills/<category>/<skill-name>/SKILL.md
 ```
 
 This mirrors common Claude skill packaging patterns while keeping the Atlas content domain-focused.
+
+## Plugins
+
+Plugins package reusable Claude Code components such as skills and agents into an installable unit. The repository includes `plugins/github-agent/`, a portable GitHub workflow plugin built around the user's authenticated `gh` CLI.
