@@ -9,12 +9,34 @@
   },
   "plugins": [
     {
+      "name": "claude-skills-atlas",
+      "source": "./plugins/atlas",
+      "description": "Portable access to the Atlas library of reusable skills, prompts, workflows, agents, and templates.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "prompts",
+        "agents",
+        "workflows",
+        "templates",
+        "ai"
+      ]
+    },
+    {
       "name": "github-agent",
       "source": "./plugins/github-agent",
       "description": "Portable GitHub workflows for Claude Code using the gh CLI.",
       "version": "1.0.0",
       "category": "development",
-      "keywords": ["github", "git", "pull-request", "issues", "ci", "agent"]
+      "keywords": [
+        "github",
+        "git",
+        "pull-request",
+        "issues",
+        "ci",
+        "agent"
+      ]
     }
   ]
 }
