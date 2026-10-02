@@ -1,0 +1,18 @@
+name: Validate Atlas
+
+on:
+  push:
+    paths: ["skills/**","prompts/**","workflows/**","agents/**","templates/**","scripts/**","CATALOG.md"]
+  pull_request:
+    paths: ["skills/**","prompts/**","workflows/**","agents/**","templates/**","scripts/**","CATALOG.md"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate resources and catalog
+        run: python scripts/validate_atlas.py
