@@ -51,3 +51,26 @@ We do **not** copy large third-party prompt collections into this repository. Wh
 ## Curation policy
 
 Ideas from these sources are treated as inspiration, not as permission to reproduce copyrighted text. Contributors should submit original implementations or material whose license explicitly permits redistribution.
+
+## Additional GitHub discovery sources
+
+The repository was also cross-checked against GitHub searches for Claude skills, prompts, SKILL.md collections, and Claude Code workflows. These are discovery sources for future curation:
+
+- ComposioHQ/awesome-claude-skills
+- multica-ai/andrej-karpathy-skills
+- alirezarezvani/claude-skills
+- anthropics/claude-plugins-official
+- BehiSecc/awesome-claude-skills
+- Jeffallan/claude-skills
+- Imbad0202/academic-research-skills
+- MengTo/Skills
+- f/prompts.chat
+- langgptai/awesome-claude-prompts
+- repowise-dev/claude-code-prompts
+- JeremyMorgan/Claude-Code-Reviewing-Prompts
+- trailofbits/skills
+- ykdojo/claude-code-tips
+- ChrisWiles/claude-code-showcase
+- FlorianBruniaux/claude-code-ultimate-guide
+
+Search results change over time. New contributors should verify each project's current license before redistributing material.
