@@ -1,0 +1,20 @@
+{
+  "name": "claude-skills-atlas",
+  "owner": {
+    "name": "Claude Skills Atlas",
+    "url": "https://github.com/cellrishi-code/claude-skills-atlas"
+  },
+  "metadata": {
+    "description": "Community-maintained reusable Claude Code plugins, skills, agents, prompts, workflows, and templates."
+  },
+  "plugins": [
+    {
+      "name": "github-agent",
+      "source": "./plugins/github-agent",
+      "description": "Portable GitHub workflows for Claude Code using the gh CLI.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["github", "git", "pull-request", "issues", "ci", "agent"]
+    }
+  ]
+}
