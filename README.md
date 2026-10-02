@@ -19,7 +19,7 @@
 
 Claude Skills Atlas is a growing collection of **practical, copy-paste-ready building blocks for Claude**.
 
-Instead of keeping useful prompts and instructions scattered across chats, bookmarks, Reddit posts, tutorials, and personal notes, this project organizes them into a community-maintained library.
+Instead of keeping useful prompts and instructions scattered across chats, bookmarks, tutorials, and personal notes, this project organizes them into a community-maintained library.
 
 You can use the repository to:
 
@@ -34,7 +34,7 @@ You can use the repository to:
 
 ---
 
-## What's inside?
+## What's inside? 🧩
 
 | Type | Purpose | Example |
 |---|---|---|
@@ -46,7 +46,7 @@ You can use the repository to:
 
 ---
 
-## Explore by domain
+## Explore by domain 🌍
 
 **Computer Science** · **Programming** · **AI / ML** · **Mathematics** · **Statistics** · **Physics** · **Chemistry** · **Biology** · **Medicine** · **Engineering** · **Robotics** · **Data Science** · **Research** · **Cybersecurity** · **DevOps / Cloud** · **Writing** · **Education** · **Business** · **Finance** · **Design** · **Productivity**
 
@@ -54,7 +54,7 @@ You can use the repository to:
 
 ---
 
-## Quick start
+## Quick start 🚀
 
 ### 1. Browse
 
@@ -105,7 +105,7 @@ graph LR
 
 This makes the project more than a static prompt collection: **resources improve through real community use and contribution.**
 
-## What makes a good Skill?
+## What makes a good Skill? 🛠️
 
 A useful skill should give Claude **clear, reusable behavior**, not just a vague instruction.
 
@@ -131,7 +131,7 @@ See the [Skill Template](templates/skill-template.md).
 
 ---
 
-## Copy-paste prompt library
+## Copy-paste prompt library 📚
 
 Prompts are intentionally kept easy to reuse.
 
@@ -153,7 +153,7 @@ Want to add your own? See the [Prompt Template](templates/prompt-template.md).
 
 ---
 
-## Built for serious work
+## Built for serious work 🔬
 
 The Atlas is not limited to coding.
 
@@ -178,7 +178,7 @@ If a task is **repeatable**, it can potentially become a reusable Claude resourc
 
 ---
 
-## Contribute to the Atlas
+## Contribute to the Atlas 🤝
 
 Everyone is welcome — beginners, students, researchers, engineers, designers, and experienced open-source contributors.
 
@@ -215,7 +215,7 @@ Read the full [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
-## Quality & safety
+## Quality & safety 🛡️
 
 We want the Atlas to be useful **and trustworthy**.
 
@@ -234,13 +234,14 @@ See [docs/community-sources.md](docs/community-sources.md) for the project's cur
 
 ---
 
-## Documentation
+## Documentation 📖
 
 | Document | Purpose |
 |---|---|
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards |
 | [SECURITY.md](SECURITY.md) | Security policy |
+| [SUPPORT.md](SUPPORT.md) | Getting help |
 | [docs/architecture.md](docs/architecture.md) | Repository architecture |
 | [docs/community-sources.md](docs/community-sources.md) | Curated external sources |
 | [Skill Template](templates/skill-template.md) | Create a new skill |
@@ -248,7 +249,7 @@ See [docs/community-sources.md](docs/community-sources.md) for the project's cur
 
 ---
 
-## Help the project grow
+## Help the project grow ⭐
 
 If you find this useful:
 
