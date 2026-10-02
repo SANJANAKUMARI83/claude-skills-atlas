@@ -1,95 +1,270 @@
-# Claude Skills Atlas
+# 🧠 Claude Skills Atlas
 
-> A community-driven open-source library of reusable Claude skills, prompts, workflows, agents, and templates for every discipline.
+<p align="center">
+  <strong>A community-driven open-source library of reusable Claude skills, prompts, workflows, agents, and templates.</strong>
+</p>
 
-**Claude Skills Atlas** is a place where people around the world can share practical instructions that make Claude more useful for real work.
+<p align="center">
+  <a href="https://github.com/cellrishi-code/claude-skills-atlas/stargazers">⭐ Star</a> ·
+  <a href="https://github.com/cellrishi-code/claude-skills-atlas/issues">💡 Issues</a> ·
+  <a href="https://github.com/cellrishi-code/claude-skills-atlas/pulls">🔀 Pull Requests</a> ·
+  <a href="CONTRIBUTING.md">🤝 Contribute</a>
+</p>
 
-From software engineering and mathematics to biology, physics, research, education, writing, cybersecurity, data science, and beyond.
+<p align="center"><em>Find it. Copy it. Adapt it. Share it.</em></p>
 
-## What can you contribute?
+---
 
-| Type | What it means | Example |
+## 🌍 What is Claude Skills Atlas?
+
+Claude Skills Atlas is a growing collection of **practical, copy-paste-ready building blocks for Claude**.
+
+Instead of keeping useful prompts and instructions scattered across chats, bookmarks, Reddit posts, tutorials, and personal notes, this project organizes them into a community-maintained library.
+
+You can use the repository to:
+
+- 🧩 Discover reusable **Claude Skills**
+- 📝 Copy **prompt templates**
+- 🔄 Follow repeatable **workflows**
+- 🤖 Build specialized **agents**
+- 📐 Start from reusable **templates**
+- 🌎 Contribute improvements for others to use
+
+> **The goal:** build a high-quality public knowledge base for getting better results from Claude across technical, scientific, creative, and professional work.
+
+---
+
+## ✨ What's inside?
+
+| 📦 Type | 🎯 Purpose | 📄 Example |
 |---|---|---|
-| 🧩 Skills | Reusable instruction packages | Code review skill |
-| 📝 Prompts | Copy-paste prompt templates | Mathematical proof explainer |
-| 🔄 Workflows | Multi-step procedures | Literature review workflow |
-| 🤖 Agents | Specialized agent definitions | Research assistant agent |
-| 📐 Templates | Reusable structures | Research report template |
+| 🧩 **Skills** | Reusable instruction packages | Code review, research analysis |
+| 📝 **Prompts** | Ready-to-copy prompts | Debugging, proof solving |
+| 🔄 **Workflows** | Multi-step procedures | Plan → implement → verify |
+| 🤖 **Agents** | Specialized agent instructions | Research assistant |
+| 📐 **Templates** | Reusable structures | Skill and prompt templates |
 
-## Disciplines
+---
 
-The repository is intentionally open-ended. Contributions can cover:
+## 🗺️ Explore by domain
 
-**Computer Science** · **Programming** · **AI / ML** · **Mathematics** · **Statistics** · **Physics** · **Chemistry** · **Biology** · **Medicine** · **Engineering** · **Robotics** · **Data Science** · **Research** · **Cybersecurity** · **DevOps** · **Cloud** · **Writing** · **Education** · **Business** · **Finance** · **Design** · **Productivity** · **and other legitimate fields**
+**💻 Computer Science** · **🧑‍💻 Programming** · **🤖 AI / ML** · **📐 Mathematics** · **📊 Statistics** · **⚛️ Physics** · **🧪 Chemistry** · **🧬 Biology** · **🩺 Medicine** · **⚙️ Engineering** · **🤖 Robotics** · **📈 Data Science** · **🔬 Research** · **🔐 Cybersecurity** · **☁️ DevOps / Cloud** · **✍️ Writing** · **🎓 Education** · **💼 Business** · **💰 Finance** · **🎨 Design** · **⚡ Productivity**
 
-Don't see your field? Create the category.
+**Don't see your field? Create the category.**
 
-## Repository structure
+---
 
-```text
-claude-skills-atlas/
-├── skills/        # Reusable SKILL.md instruction packages
-├── prompts/       # Copy-paste prompt templates
-├── workflows/     # Repeatable multi-step procedures
-├── agents/        # Specialized agent definitions
-├── templates/     # Reusable document/checklist/schema templates
-├── docs/          # Project standards and architecture
-└── .github/       # Contribution and issue templates
-```
+## 🚀 Quick start
 
-## Quick start
+### 1. Browse
 
-Browse the folders and copy an artifact into your own Claude workflow.
+~~~text
+skills/       → reusable SKILL.md files
+prompts/      → copy-paste prompts
+workflows/    → repeatable processes
+agents/       → specialized agent definitions
+templates/    → reusable structures
+~~~
 
-For a skill, start with:
-
-```text
-skills/<category>/<skill-name>/SKILL.md
-```
-
-For a prompt:
-
-```text
-prompts/<category>/<prompt-name>.md
-```
-
-## Contributing
-
-Everyone is welcome.
-
-1. Fork the repository.
-2. Create a focused branch.
-3. Add one useful skill, prompt, workflow, agent, or template.
-4. Follow [CONTRIBUTING.md](CONTRIBUTING.md).
-5. Test the contribution with Claude when practical.
-6. Open a pull request.
-
-New contributors do **not** need to be experts. Clear, useful, well-documented contributions are welcome.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full format and quality checklist.
-
-## Quality standards
-
-Good contributions should be:
-
-- **Useful** — solves a real, repeatable problem.
-- **Clear** — another person can understand how to use it.
-- **Reusable** — avoids personal secrets, private context, or hard-coded identity details.
-- **Honest** — limitations and uncertainties are stated.
-- **Original or attributed** — only submit material you have permission to redistribute.
-- **Safe** — no credentials, malicious payloads, malware, or instructions intended to compromise unrelated users or systems.
-
-## Examples
+### 2. Pick something useful
 
 - [Code Review Skill](skills/coding/code-review/SKILL.md)
-- [Mathematical Proof Explainer](prompts/mathematics/proof-explainer.md)
+- [Implementation Planner](skills/coding/implementation-planner/SKILL.md)
+- [Evidence Checker](skills/research/evidence-checker/SKILL.md)
+- [Mathematics Problem Solver](skills/mathematics/problem-solver/SKILL.md)
+- [Debugging Prompt](prompts/coding/debugging.md)
+- [Paper Reading Prompt](prompts/research/paper-reading.md)
+- [Active Learning Prompt](prompts/learning/active-learning.md)
 
-## Community
+### 3. Copy → adapt → use
 
-This project belongs to its contributors. Improvements to organization, discoverability, validation, documentation, and new disciplines are welcome.
+Most resources are designed to be understandable on their own.
 
-Please use GitHub Issues for proposals and Pull Requests for concrete changes.
+Open the file, copy the instructions, adapt them to your project, and use them in your Claude workflow.
 
-## License
+---
 
-MIT — see [LICENSE](LICENSE).
+## 🧩 What makes a good Skill?
+
+A useful skill should give Claude **clear, reusable behavior**, not just a vague instruction.
+
+Good skills generally include:
+
+1. **A clear purpose**
+2. **When to use the skill**
+3. **A repeatable process**
+4. **Important constraints**
+5. **Expected output**
+6. **Verification or quality checks**
+
+Example:
+
+~~~text
+skills/
+└── coding/
+    └── my-skill/
+        └── SKILL.md
+~~~
+
+See the [Skill Template](templates/skill-template.md).
+
+---
+
+## 📝 Copy-paste prompt library
+
+Prompts are intentionally kept easy to reuse.
+
+~~~text
+prompts/
+├── coding/
+│   ├── debugging.md
+│   └── refactor.md
+├── mathematics/
+│   └── proof-explainer.md
+├── research/
+│   ├── claim-audit.md
+│   └── paper-reading.md
+└── learning/
+    └── active-learning.md
+~~~
+
+Want to add your own? See the [Prompt Template](templates/prompt-template.md).
+
+---
+
+## 🔬 Built for serious work
+
+The Atlas is not limited to coding.
+
+You can contribute resources for:
+
+- 🔬 Scientific research
+- 📚 Literature reviews
+- 🧮 Mathematical reasoning
+- 🧬 Biology and life sciences
+- ⚛️ Physics and chemistry
+- 🧑‍💻 Software engineering
+- 🤖 AI / machine learning
+- 📊 Data analysis
+- 🔐 Cybersecurity
+- 📝 Technical writing
+- 🎓 Teaching and learning
+- 🏗️ Engineering
+- 🎨 Design
+- 💼 Business and productivity
+
+If a task is **repeatable**, it can potentially become a reusable Claude resource.
+
+---
+
+## 🤝 Contribute to the Atlas
+
+Everyone is welcome — beginners, students, researchers, engineers, designers, and experienced open-source contributors.
+
+### Contribution flow
+
+~~~text
+Fork
+  ↓
+Create a branch
+  ↓
+Add your skill / prompt / workflow / agent
+  ↓
+Test it
+  ↓
+Open a Pull Request
+  ↓
+Community review
+  ↓
+Merge 🚀
+~~~
+
+### Before opening a PR
+
+- ✅ Make the resource genuinely useful
+- ✅ Keep instructions clear and reusable
+- ✅ Use lowercase kebab-case names
+- ✅ Avoid private information and secrets
+- ✅ Test the resource when practical
+- ✅ Credit external inspiration or sources
+- ✅ Only submit material you have permission to redistribute
+- ✅ Explain what your contribution does
+
+Read the full [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## 🛡️ Quality & safety
+
+We want the Atlas to be useful **and trustworthy**.
+
+| Principle | Meaning |
+|---|---|
+| 🎯 **Useful** | Solves a real, repeatable problem |
+| 🧠 **Clear** | Easy for another person to understand |
+| ♻️ **Reusable** | Avoids private context and hard-coded identity |
+| 🔎 **Honest** | States limitations and uncertainty |
+| ©️ **Attributed** | Respects licenses and original creators |
+| 🛡️ **Safe** | No credentials, malware, or malicious payloads |
+
+When adapting ideas from public discussions or repositories, prefer creating an **original implementation** and linking the source rather than copying large third-party collections.
+
+See [docs/community-sources.md](docs/community-sources.md) for the project's curation policy.
+
+---
+
+## 📚 Documentation
+
+| Document | Purpose |
+|---|---|
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards |
+| [SECURITY.md](SECURITY.md) | Security policy |
+| [docs/architecture.md](docs/architecture.md) | Repository architecture |
+| [docs/community-sources.md](docs/community-sources.md) | Curated external sources |
+| [Skill Template](templates/skill-template.md) | Create a new skill |
+| [Prompt Template](templates/prompt-template.md) | Create a new prompt |
+
+---
+
+## 🌟 Help the project grow
+
+If you find this useful:
+
+**⭐ Star the repository** · **🍴 Fork it** · **🧩 Add a resource** · **🔀 Open a Pull Request** · **📣 Share it**
+
+Every useful contribution makes the Atlas better for the next person.
+
+---
+
+## 📊 Repository structure
+
+~~~text
+claude-skills-atlas/
+│
+├── 🧩 skills/          # Reusable Claude skills
+├── 📝 prompts/         # Copy-paste prompt templates
+├── 🔄 workflows/       # Multi-step workflows
+├── 🤖 agents/          # Specialized agents
+├── 📐 templates/       # Reusable templates
+├── 📚 docs/            # Documentation & curation
+│
+└── ⚙️ .github/         # Issues, PR templates, CODEOWNERS
+~~~
+
+---
+
+## 📜 License
+
+Released under the **MIT License**.
+
+See [LICENSE](LICENSE) for details.
+
+---
+
+<p align="center">
+  <strong>🧠 Claude Skills Atlas</strong><br>
+  <sub>A community library for better Claude workflows.</sub>
+</p>
+
+<p align="center"><em>Built by the community. Improved by everyone.</em></p>
