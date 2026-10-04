@@ -2,9 +2,9 @@ name: Validate Atlas
 
 on:
   push:
-    paths: ["skills/**","prompts/**","workflows/**","agents/**","templates/**","scripts/**","CATALOG.md"]
+    paths: ["skills/**","prompts/**","workflows/**","agents/**","templates/**","scripts/**","CATALOG.md","tests/**"]
   pull_request:
-    paths: ["skills/**","prompts/**","workflows/**","agents/**","templates/**","scripts/**","CATALOG.md"]
+    paths: ["skills/**","prompts/**","workflows/**","agents/**","templates/**","scripts/**","CATALOG.md","tests/**"]
 
 jobs:
   validate:
@@ -16,3 +16,5 @@ jobs:
           python-version: "3.x"
       - name: Validate resources and catalog
         run: python scripts/validate_atlas.py
+      - name: Run tests
+        run: python -m unittest discover tests
