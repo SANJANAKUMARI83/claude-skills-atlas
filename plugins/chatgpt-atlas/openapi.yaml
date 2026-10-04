@@ -1,0 +1,102 @@
+openapi: 3.0.3
+info:
+  title: Claude Skills Atlas API
+  version: 1.0.0
+  description: Read-only API for discovering resources in Claude Skills Atlas.
+servers:
+  - url: https://YOUR-DEPLOYED-HOST.example.com
+paths:
+  /health:
+    get:
+      operationId: health
+      summary: Check plugin health
+      responses:
+        '200':
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                type: object
+  /resources:
+    get:
+      operationId: searchResources
+      summary: Search Atlas resources
+      parameters:
+        - name: q
+          in: query
+          required: false
+          schema:
+            type: string
+        - name: type
+          in: query
+          required: false
+          schema:
+            type: string
+            enum: [skill, prompt, workflow, agent, template]
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 50
+            default: 10
+      responses:
+        '200':
+          description: Matching resources
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Resource'
+  /resource:
+    get:
+      operationId: getResource
+      summary: Get one Atlas resource
+      parameters:
+        - name: path
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Resource content
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResourceContent'
+        '404':
+          description: Resource not found
+components:
+  schemas:
+    Resource:
+      type: object
+      required: [path, type]
+      properties:
+        path:
+          type: string
+        type:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        url:
+          type: string
+          format: uri
+    ResourceContent:
+      type: object
+      required: [path, content]
+      properties:
+        path:
+          type: string
+        content:
+          type: string
+        url:
+          type: string
+          format: uri
