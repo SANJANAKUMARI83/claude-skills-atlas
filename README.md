@@ -12,7 +12,13 @@
   <a href="CONTRIBUTING.md">Contribute</a>
 </p>
 
-<p align="center"><em>Discover it. Adapt it. Build with it. Contribute back.</em></p>
+<p align="center"><em>Discover it. Build with it. Improve it. Contribute back.</em></p>
+
+<p align="center">
+  <a href="https://github.com/cellrishi-code/claude-skills-atlas/issues"><strong>🚀 Find an issue</strong></a> ·
+  <a href="https://github.com/cellrishi-code/claude-skills-atlas/fork"><strong>🍴 Fork & build</strong></a> ·
+  <a href="https://github.com/cellrishi-code/claude-skills-atlas/pulls"><strong>🔀 Submit a PR</strong></a>
+</p>
 
 ---
 
@@ -206,6 +212,64 @@ See the [Skill Template](templates/skill-template.md).
 
 ---
 
+
+## 🚀 Your first open-source contribution can start here
+
+You **do not need to be an open-source expert** to contribute to Claude Skills Atlas. If you know something useful, you can help turn it into a reusable resource for the community.
+
+### Pick your contribution
+
+| If you are... | You can contribute... |
+|---|---|
+| 🌱 New to open source | Fix a typo, improve docs, or tackle a **good first issue** |
+| 💻 A developer | Build a skill, workflow, plugin, integration, or developer tool |
+| 🤖 An AI/ML enthusiast | Add prompts, evaluation workflows, or agent skills |
+| 📚 A student/researcher | Contribute research, mathematics, learning, or academic resources |
+| 🎨 A designer | Improve documentation, examples, UX, or project presentation |
+| 🔐 A security enthusiast | Review resources and improve security guidance |
+| 🧪 A tester | Add validation, tests, examples, or reproducibility checks |
+| 🌍 An experienced contributor | Review PRs, improve architecture, or mentor newcomers |
+
+### 5-minute contribution
+
+**1. Find something useful to improve.** Browse the [open issues](https://github.com/cellrishi-code/claude-skills-atlas/issues) and look for `good first issue`, `help wanted`, or an issue that matches your skills.
+
+**2. Fork and create a branch.**
+
+```bash
+git clone https://github.com/cellrishi-code/claude-skills-atlas.git
+cd claude-skills-atlas
+git checkout -b feat/my-contribution
+```
+
+**3. Make one focused improvement.** Add a useful resource, improve an existing one, fix documentation, add tests, or improve tooling.
+
+**4. Validate it.**
+
+```bash
+python scripts/validate_atlas.py
+python -m unittest discover tests
+```
+
+**5. Open a Pull Request.** Explain what you changed, why it helps, and how you tested it. Maintainers and contributors can review it together.
+
+> 💡 **Your first PR does not have to be huge.** A small, useful improvement is a real open-source contribution.
+
+### Contribution ideas if you are stuck
+
+- Add a skill for a task you repeatedly solve.
+- Turn a useful prompt into a reusable prompt resource.
+- Improve an existing skill's instructions or examples.
+- Add a missing test or validation rule.
+- Improve documentation for beginners.
+- Add resources for an underrepresented domain.
+- Review an open PR and suggest improvements.
+- Test an integration and report what works or breaks.
+
+**Have an idea that does not fit an existing issue?** Open a [feature request](https://github.com/cellrishi-code/claude-skills-atlas/issues/new) and start the discussion.
+
+---
+
 ## Contributing
 
 Looking for something to work on? Start with the [open issues](https://github.com/cellrishi-code/claude-skills-atlas/issues), especially issues labeled `good first issue` or `help wanted`. If you are new to the project, read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR.
@@ -214,6 +278,9 @@ Looking for something to work on? Start with the [open issues](https://github.co
 Claude Skills Atlas is an open-source project and welcomes contributions from **beginners, students, researchers, engineers, designers, and experienced open-source contributors**.
 
 ### Contribution flow
+
+**New here? That's completely fine.** We care more about useful ideas and respectful collaboration than previous open-source experience.
+
 
 ```text
 Fork
@@ -335,6 +402,12 @@ Planned and ongoing areas include:
 See [ROADMAP.md](ROADMAP.md) and the [open issues](https://github.com/cellrishi-code/claude-skills-atlas/issues) for current work.
 
 ---
+
+## 🌟 Help grow the community
+
+Claude Skills Atlas becomes more valuable as more people contribute their knowledge, experiments, tools, and ideas. You can help even without writing code: **documentation, testing, issue reports, reviews, examples, and domain knowledge all count.**
+
+If you contribute, consider becoming a regular contributor and helping newcomers make their first PR. The goal is not just a large repository — it is a welcoming community that continuously improves shared AI resources.
 
 ## Support the project
 
