@@ -93,6 +93,8 @@ Before opening a PR:
 
 ## Pull requests
 
+Maintainers can use the [Maintainer Merge Checklist](docs/maintainer-merge-checklist.md) for a consistent final review before merging resource PRs.
+
 Keep PRs focused. One coherent contribution is easier to review than a large mixed change.
 
 ### First-time contributor workflow
