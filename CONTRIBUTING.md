@@ -95,6 +95,19 @@ Before opening a PR:
 
 Keep PRs focused. One coherent contribution is easier to review than a large mixed change.
 
+### First-time contributor workflow
+
+For a typical contribution:
+
+1. Fork the repository and clone your fork locally.
+2. Create a focused branch for your change.
+3. Make the contribution and review the changes locally.
+4. Test the contribution where practical.
+5. Commit the changes with a clear commit message.
+6. Push the branch to your fork.
+7. Open a Pull Request from your fork to the main repository.
+8. Respond to maintainer feedback and update the PR if revisions are requested.
+
 Maintainers may:
 
 - ask for revisions
