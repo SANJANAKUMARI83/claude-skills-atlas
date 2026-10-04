@@ -2,7 +2,7 @@ name: Validate Atlas
 
 on:
   push:
-    paths: ["skills/**","prompts/**","workflows/**","agents/**","templates/**","scripts/**","CATALOG.md","tests/**"]
+    paths: ["skills/**","prompts/**","workflows/**","agents/**","templates/**","scripts/**","CATALOG.md","tests/**","docs/**","CONTRIBUTING.md","README.md"]
   pull_request:
     paths: ["skills/**","prompts/**","workflows/**","agents/**","templates/**","scripts/**","CATALOG.md","tests/**"]
 
