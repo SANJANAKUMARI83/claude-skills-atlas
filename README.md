@@ -76,6 +76,25 @@ Don't see your field? **Create the category and contribute it.**
 
 ## Quick start
 
+### Clone the repository
+
+```bash
+git clone https://github.com/cellrishi-code/claude-skills-atlas.git
+cd claude-skills-atlas
+```
+
+### Validate locally
+
+The repository includes lightweight validation for resource structure, skill metadata, required skill sections, duplicate resource names, and broken internal Markdown links.
+
+```bash
+python scripts/validate_atlas.py
+python -m unittest discover tests
+```
+
+A pull request that changes Atlas resources or validation tooling is checked automatically by GitHub Actions.
+
+
 ### Browse the library
 
 ```text
@@ -189,6 +208,9 @@ See the [Skill Template](templates/skill-template.md).
 
 ## Contributing
 
+Looking for something to work on? Start with the [open issues](https://github.com/cellrishi-code/claude-skills-atlas/issues), especially issues labeled `good first issue` or `help wanted`. If you are new to the project, read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR.
+
+
 Claude Skills Atlas is an open-source project and welcomes contributions from **beginners, students, researchers, engineers, designers, and experienced open-source contributors**.
 
 ### Contribution flow
@@ -286,6 +308,12 @@ claude-skills-atlas/
 ```
 
 ---
+
+## How the Atlas is maintained
+
+Resources are reviewed for usefulness, clarity, duplication, safety, attribution, and maintainability. Generated files such as `CATALOG.md` should be updated through the repository tooling rather than edited manually.
+
+For agent-facing consumers, prefer stable repository paths and documented resource formats. Treat Atlas resources as community content: inspect and adapt them before granting an agent access to tools, files, credentials, or external systems.
 
 ## Roadmap
 
