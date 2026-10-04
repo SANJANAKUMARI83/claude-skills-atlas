@@ -121,6 +121,19 @@ Only submit content you are allowed to redistribute.
 
 When adapting an existing work, include the original source and relevant license/attribution information.
 
+## Common Development Commands
+
+### Regenerate the resource catalog
+
+`CATALOG.md` is generated from the repository resources. After adding or removing resources, regenerate the catalog with:
+
+```bash
+python scripts/generate_catalog.py
+```
+
+The script updates `CATALOG.md` automatically. Do not edit `CATALOG.md` manually.
+
+
 ## Testing
 
 Where practical, test prompts or skills with Claude and describe what was tested.
