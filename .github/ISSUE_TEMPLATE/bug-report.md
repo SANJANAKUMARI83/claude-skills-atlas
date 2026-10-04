@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a problem with an existing Atlas resource
+about: Report a broken, misleading, or unsafe Atlas resource
 title: "[Bug]: "
 labels: bug
 ---
